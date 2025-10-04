@@ -12,18 +12,18 @@ function NavbarAdmin() {
   };
 
   return (
-    <nav className="bg-[#7D1D25] px-6 py-3 flex items-center justify-between relative">
+    <nav className="bg-white px-6 py-3 flex items-center justify-between relative">
       {/* Logo */}
       <div className="flex items-center gap-2">
-        <FaPaw className="text-white text-2xl" />
-        <span className="text-white text-xl font-semibold">PetSalud</span>
+        <FaPaw className="text-black text-2xl" />
+        <span className="text-black text-xl font-semibold">PetSalud</span>
       </div>
 
       {/* Usuario */}
       <div className="relative">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="flex items-center gap-2 text-white font-semibold focus:outline-none cursor-pointer"
+          className="flex items-center gap-2 text-black font-semibold focus:outline-none cursor-pointer"
         >
           <FaUserCircle className="text-2xl" />
           <span>User Admin</span>

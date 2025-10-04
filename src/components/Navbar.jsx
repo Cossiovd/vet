@@ -4,7 +4,7 @@ import { FaPaw } from "react-icons/fa";
 function Navbar() {
   return (
     <nav className="bg-black">
-      <div className="bg-[#7D1B1B] text-white flex items-center justify-between px-6 py-3">
+      <div className="bg-[#0288D1] text-white flex items-center justify-between px-6 py-3">
         {/* Logo */}
         <div className="flex items-center gap-2">
           <FaPaw className="text-white text-2xl" />
@@ -28,7 +28,7 @@ function Navbar() {
 
           {/* Botón Iniciar Sesión */}
           <Link to="/login">
-            <button className="bg-yellow-400 font-semibold text-white px-4 py-2 rounded-lg font-medium hover:bg-yellow-500">
+            <button className="bg-[#29B6F6] font-semibold text-white px-4 py-2 rounded-lg font-medium hover:bg-[#29B6F6]">
               Iniciar sesión
             </button>
           </Link>

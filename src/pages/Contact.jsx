@@ -27,7 +27,7 @@ function Contact() {
                 className="w-full p-3 placeholder-[#4B4B4B] placeholder:font-semibold rounded-md bg-[#EBEBEB]" />
               <textarea placeholder="Mensaje" rows="4"
                 className="w-full p-3 placeholder-[#4B4B4B] placeholder:font-semibold rounded-md bg-[#EBEBEB]"></textarea>
-              <button type="submit" className="w-full bg-[#DF485D] text-white py-3 rounded-md font-semibold">
+              <button type="submit" className="w-full bg-[#37474F] text-white py-3 rounded-md font-semibold">
                 Enviar
               </button>
             </form>

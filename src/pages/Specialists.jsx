@@ -15,7 +15,7 @@ function Specialists() {
   return (
     <div>
       {/* Sesión banner */}
-      <section className="bg-[#DF485D] text-white p-10 flex flex-col items-center justify-center text-center rounded-lg">
+      <section className="bg-[#4FC3F7] text-white p-10 flex flex-col items-center justify-center text-center rounded-lg">
         <div className="w-full flex justify-center">
           <h2 className="text-3xl md:text-4xl font-bold">Nuestro Equipo</h2>
         </div>

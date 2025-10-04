@@ -12,7 +12,7 @@ function Testimonials() {
           <div key={index} className="p-5 border border-[#EBEBEB] rounded-lg w-80 shadow-lg flex flex-col items-center text-center">
             <img className="w-32 h-32 rounded-full object-cover" src={testimonial.image} alt={testimonial.name} />
             <p className="mt-4 text-[#4B4B4B] font-semibold">{testimonial.text}</p>
-            <h3 className="mt-4 font-bold text-[#DF485D]">{testimonial.name}</h3>
+            <h3 className="mt-4 font-bold text-[#4FC3F7]">{testimonial.name}</h3>
           </div>
         ))}
       </div>
